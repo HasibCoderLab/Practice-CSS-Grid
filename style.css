@@ -1,15 +1,14 @@
 .photos-al {
-  display: flex; /* অথবা display: grid; */
+  display: flex;
   justify-content: center;
 }
 
 .photos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ৩ কলামের গ্রিড */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 10px;
-  width: 80%; /* ছবির কন্টেইনারের প্রস্থ */
+  width: 80%; 
 }
-
 .photos img {
   width: 100%;
   height: auto;
